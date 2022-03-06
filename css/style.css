@@ -7,7 +7,65 @@ p {
     color: #ffffff;
 }
 
+.box-model-paragraph {
+    color: #000;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.highlight-one {
+    background-color: #80ffaa;
+}
+
+.highlight-two {
+    color: #ffccff;
+}
+
+.highlight-three {
+    background-color: #ffcc99;
+}
+
+.highlight-four {
+    color: #ffff66;
+}
+
 h1 {
     font-size: 50px;
     color: #b30000;
+}
+
+div {
+    width: 500px;
+}
+
+.div-one {
+    background-color: #000;
+}
+
+.div-two {
+    background-color: #264d00;
+}
+
+.div-three {
+    background-color: #000099;
+}
+
+.div-four {
+    background-color: #990033;
+}
+
+/* the CSS Box Model */
+
+.box {
+    background-image: url(../img/snow.jpg);
+    width: 300px;
+    margin: 100px;
+    border: 5px solid #b30000;
+    border-bottom: 10px solid #ffff66;
+    border-top: 10px solid #80ffaa;
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
 }
